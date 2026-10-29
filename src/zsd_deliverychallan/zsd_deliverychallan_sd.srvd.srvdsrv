@@ -1,0 +1,7 @@
+@EndUserText.label: 'Delivery Challan Service Defination'
+@ObjectModel.leadingEntity.name: 'ZSD_DELIVERYCHALLAN'
+define service ZSD_Deliverychallan_SD {
+  expose ZSD_DELIVERYCHALLAN;
+  expose ZSD_TAXINVOIVE_PLANT_F4;
+  expose ZSD_Outbounddel_F4;
+}

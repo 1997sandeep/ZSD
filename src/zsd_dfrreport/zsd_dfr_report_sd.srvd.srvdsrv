@@ -1,0 +1,8 @@
+@EndUserText.label: 'DFR Report Service Defination'
+@ObjectModel.leadingEntity.name: 'ZSD_DFR_CDS'
+define service ZSD_DFR_REPORT_SD {
+  expose ZSD_DFR_CDS;
+  expose ZSD_SALESCONTRACTF4;
+  expose ZSD_SalesOrderF4;
+  expose ZSD_RABILLF4;
+}

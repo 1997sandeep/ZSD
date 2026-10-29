@@ -1,0 +1,8 @@
+@EndUserText.label: 'Tax Invoice Service Defination'
+@ObjectModel.leadingEntity.name: 'ZSD_TAXINVOICE_CDS'
+define service ZSD_TAXINVOICE_SD {
+  expose ZSD_TAXINVOICE_CDS;
+  expose ZSD_TAXINVOICE_BILLF4;
+  expose zsd_taxinvoice_clntbilling_f4;
+  expose ZSD_TAXINVOIVE_PLANT_F4;
+}

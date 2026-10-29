@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "DFR Report Print",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "DFR Report Print"
+  },
+  "ui5AppDetails": {
+    "appId": "dfrreport"
+  },
+  "navigation": {
+    "targetMappingId": "ZDFRREPORT_UI5R_TM",
+    "semanticObject": "ZSODFRREPORT",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZDFRREPORT_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "DFR Report Print"
+      }
+    }
+  ]
+}
